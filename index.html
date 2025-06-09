@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="Bootstrap.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <title>سوبر ماركت نعمة</title>
+</head>
+<body style="background-color:rgb(236, 232, 227);">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark shadow-sm ">
+  <div class="container fixed">
+
+    <!-- زر القائمة للهاتف -->
+    <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- الروابط على اليمين -->
+    <div class="collapse navbar-collapse justify-content-start" id="mainNav">
+      <ul class="navbar-nav mb-2 mb-lg-0 text-center">
+
+        <li class="nav-item">
+          <a class="nav-link text-light fw-semibold nav-hover" href="#">الرئيسية</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-light nav-hover" href="#">المنتجات</a>
+        </li>
+
+        <!-- قائمة منسدلة للأقسام -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light nav-hover" href="index.html" id="dropdownMenu" role="button" data-bs-toggle="dropdown">
+            الأقسام
+          </a>
+          <ul class="dropdown-menu custom-dropdown   bg-secondary" aria-labelledby="dropdownMenu">
+            <li><a class="dropdown-item" href="#">🥦 خضروات وفواكه</a></li>
+            <li><a class="dropdown-item" href="#">🧀 ألبان وأجبان</a></li>
+            <li><a class="dropdown-item" href="#">🧼 منظفات</a></li>
+            <li><a class="dropdown-item" href="#">🥫 معلبات</a></li>
+          </ul>
+          
+        </li>
+        
+      </ul>
+    </div>
+
+    <!-- الشعار في المنتصف -->
+    <a class="navbar-brand d-flex align-items-center text-light fw-bold mx-auto" href="#">
+      <i class="fas fa-shopping-cart me-2"></i> سوبر ماركت نعمة
+    </a>
+
+    <!-- يسار الشريط: بحث وتواصل وتسجيل دخول -->
+    <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+      <form class="d-flex me-3" role="search">
+        <input class="form-control form-control-sm me-2" type="search" placeholder="بحث" aria-label="بحث" />
+        <button class="btn btn-warning btn-sm" type="submit"><i class="fas fa-search"></i></button>
+      </form>
+
+      <ul class="navbar-nav mb-2 mb-lg-0 text-center">
+        <li class="nav-item">
+          <a class="nav-link text-light nav-hover" href="#">تواصل معنا</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light nav-hover" href="#"><i class="fas fa-user"></i> تسجيل الدخول</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+<header class="hero-section text-center text-light py-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold">مرحبًا بكم في سوبر ماركت نعوم 🛒</h1>
+      <p class="lead mt-3">كل ما تحتاجه من خضار، ألبان، منظفات والمزيد – بجودة عالية وأسعار منافسة!</p>
+      <a href="#products" class="btn btn-warning btn-lg mt-4">تصفح المنتجات</a>
+    </div>
+  </header>
+  <section id="products" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-bold">منتجاتنا المميزة</h2>
+      <div class="row g-4">
+  
+        <!-- منتج 1 -->
+        <div class="col-md-3">
+          <div class="card h-100 shadow">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7kwvaS5WI1BGx5r0_iLg5F11gP2njswd2kChPf9k95FLyF6MxrvMFz7U5-Lda0rp4vmU&usqp=CAU" class="card-img-top" alt="طماطم طازجة">
+            <div class="card-body text-center">
+              <h5 class="card-title">طماطم طازجة</h5>
+              <p class="card-text">₪3.99 / كغ</p>
+              <button class="btn btn-primary">أضف إلى السلة</button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- منتج 2 -->
+        <div class="col-md-3">
+          <div class="card h-100 shadow">
+            <img src="https://almukhtar.ps/upload/05-2024/product/664da708d631c-IDX.jpg" class="card-img-top" alt="جبنة بيضاء">
+            <div class="card-body text-center">
+              <h5 class="card-title">جبنة بيضاء</h5>
+              <p class="card-text">₪8.50 / 500غ</p>
+              <button class="btn btn-primary">أضف إلى السلة</button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- منتج 3 -->
+        <div class="col-md-3">
+          <div class="card h-100 shadow">
+            <img src="https://www.chemica-egypt.com/uploads/images/2021_07_10_01_41_03_Untitled-1_resize.jpg" class="card-img-top" alt="سائل تنظيف">
+            <div class="card-body text-center">
+              <h5 class="card-title">سائل تنظيف</h5>
+              <p class="card-text">₪6.00 / عبوة</p>
+              <button class="btn btn-primary">أضف إلى السلة</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center align-items-center text-center">
+            <button class="btn btn-primary btn-lg rounded-pill shadow">
+              تصفح المزيد من المنتجات
+            </button>
+          </div>
+          
+  
+      </div>
+    </div>
+  </section>
+  <section class="container my-5">
+    <h2 class="text-center mb-4 fw-bold">الأقسام</h2>
+    <div class="row row-cols-3 row-cols-md-4  row-cols-lg-5 g-4">
+  
+      <div class="col">
+        <div class="card h-100 text-center border-3 border-warning">
+          <img src="https://www.albayan.ae/assets/archives/images/2020/07/20/3916749.jpg" class="card-img-top" alt="خضروات وفواكه">
+          <div class="card-body">
+            <h5 class="card-title">خضروات وفواكه</h5>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col">
+        <div class="card h-100 text-center border-3 border-warning">
+            <img src="https://topskynews.net/wp-content/uploads/2023/02/alnadim_20211117112501-390x220.jpg" class="card-img-top" alt="ألبان وأجبان">
+          <div class="card-body">
+            <h5 class="card-title">ألبان وأجبان</h5>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col">
+        <div class="card h-100 text-center border-3 border-warning">
+            <img src="https://adwatak.com/wp-content/uploads/2019/06/image.jpg" class="card-img-top" alt="منظفات">
+          <div class="card-body">
+            <h5 class="card-title">منظفات</h5>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col">
+        <div class="card h-100 text-center border-3 border-warning">
+            <img src="https://www.aljazeera.net/wp-content/uploads/2022/01/GettyImages-151572910.jpg?resize=1920%2C1080" class="card-img-top" alt="معلبات">
+          <div class="card-body">
+            <h5 class="card-title">معلبات</h5>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col">
+        <div class="card h-100 text-center border-3 border-warning">
+            <img src="https://www.marketresearchintellect.com/images/blogs/top-frozen-bakery-breads.webp" class="card-img-top" alt="مخبوزات">
+          <div class="card-body">
+            <h5 class="card-title">مخبوزات</h5>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col">
+        <div class="card h-100 text-center border-3 border-warning">
+            <img src="https://al3omk.com/wp-content/uploads/2025/03/67cf67770c07b.jpg" class="card-img-top" alt="لحوم وأسماك">
+          <div class="card-body">
+            <h5 class="card-title">لحوم وأسماك</h5>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  <section class="container my-5">
+  <h2 class="text-center mb-4 fw-bold text-danger">🔥 عروض اليوم</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <div class="col">
+      <div class="card h-100 shadow">
+        <img src="https://via.placeholder.com/300x200?text=حليب+2+لتر" class="card-img-top" alt="حليب">
+        <div class="card-body text-center">
+          <h5 class="card-title">حليب نيدو 2 لتر</h5>
+          <p class="mb-1"><span class="text-muted text-decoration-line-through">₪18.00</span></p>
+          <p class="text-success fw-bold fs-5">₪12.00</p>
+          <a href="#" class="btn btn-danger">اطلب الآن</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow">
+        <img src="https://via.placeholder.com/300x200?text=زيت+ذرة+1.8لتر" class="card-img-top" alt="زيت">
+        <div class="card-body text-center">
+          <h5 class="card-title">زيت ذرة مازولا 1.8 لتر</h5>
+          <p class="mb-1"><span class="text-muted text-decoration-line-through">₪28.00</span></p>
+          <p class="text-success fw-bold fs-5">₪21.00</p>
+          <a href="#" class="btn btn-danger">اطلب الآن</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow">
+        <img src="https://via.placeholder.com/300x200?text=أرز+5+كغم" class="card-img-top" alt="أرز">
+        <div class="card-body text-center">
+          <h5 class="card-title">أرز بسمتي 5 كغم</h5>
+          <p class="mb-1"><span class="text-muted text-decoration-line-through">₪45.00</span></p>
+          <p class="text-success fw-bold fs-5">₪34.90</p>
+          <a href="#" class="btn btn-danger">اطلب الآن</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  
+<!-- تنسيقات إضافية -->
+<style>
+  .nav-hover {
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 30px;
+    padding: 6px 14px;
+  }
+
+  .nav-hover:hover {
+    background-color: #151516;
+    color: #fde10d !important;
+    text-decoration: none;
+  }
+
+  .navbar-brand i {
+    font-size: 1.5rem;
+  }
+
+  .dropdown-menu {
+    text-align: right;
+  }
+  .custom-dropdown {
+  background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  border: none;
+}
+
+.custom-dropdown .dropdown-item {
+  padding: 10px 20px;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background-color: #6e6f70;
+  color: #fff;
+  border-radius: 10px;
+}
+.hero-section {
+  background: linear-gradient(rgb(0, 0, 0), rgba(114, 111, 104, 0.922)),
+              url('https://images.unsplash.com/photo-1606813902935-89fdf4f0ee1c') no-repeat center center;
+  background-size: cover;
+  min-height: 400px;
+}
+.navbar{
+    width: 100%;
+    position: relative  ;
+    left: 0;
+    position:sticky;
+    top: 0;
+    z-index: 999;
+}
+
+</style>
+
+<script src="Bootstrap.js"></script>
+</body>
+</html>
